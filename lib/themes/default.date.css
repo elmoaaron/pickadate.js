@@ -40,6 +40,9 @@
   padding: .5em;
   margin-left: .25em;
   margin-right: .25em;
+  //to make it work with another frameworks like materialize 
+  padding: 0px !important;
+  display: initial !important;
 }
 @media (min-width: 24.5em) {
   .picker__select--month,
